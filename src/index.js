@@ -1,11 +1,23 @@
+/*
+ * @Author: arron Zhu <朱桂峰 1274294199@qq.com>
+ * @Date: 2021-09-02 10:25:58
+ * @lastEditor: arron Zhu
+ * @LastEditTime: 2021-09-02 10:39:30
+ * @Description: 
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Header/index.js'
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
+ <Header></Header>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
