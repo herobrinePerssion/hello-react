@@ -1,0 +1,9 @@
+.list-wrapper{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.list{
+margin: 10px 0;
+}
