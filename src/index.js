@@ -1,23 +1,9 @@
-/*
- * @Author: arron Zhu <朱桂峰 1274294199@qq.com>
- * @Date: 2021-09-02 10:25:58
- * @lastEditor: arron Zhu
- * @LastEditTime: 2021-09-03 14:42:08
- * @Description: 
- */
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import CommentApp from './CommentApp/index.js'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import CommentApp from './CommentApp'
+import './index.css'
+
 ReactDOM.render(
-  <React.StrictMode>
-    <CommentApp></CommentApp>
-  </React.StrictMode>,
+  <CommentApp />,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
